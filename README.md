@@ -1,5 +1,5 @@
 # Inroduction
-This is a CSS tutorial which includes transitions and transformations. It has only HTML and CSS files. Mostly self explanatory by looking at the code.
+This is a CSS tutorial which includes transitions and transformations. It has only HTML and CSS files. Mostly self explanatory by looking at the code and the webpage.
 
 # Installation
 >npm install
@@ -9,7 +9,3 @@ This is a CSS tutorial which includes transitions and transformations. It has on
 
 # Author
 Nisha Bhat
-
-# Files List
-- index.html
-- style.css
