@@ -1,0 +1,17 @@
+.ellipse{
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}

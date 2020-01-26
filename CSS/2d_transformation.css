@@ -1,0 +1,66 @@
+#skew .box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -o-transition: transform 2s;
+    -ms-transition: transform 2s;
+}
+#skew .box:hover{
+    transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    
+}
+#scale .box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -o-transition: transform 2s;
+    -ms-transition: transform 2s;
+}
+#scale .box:hover{
+    transform: scale(0.5,0.5);
+    -webkit-transform: scale(0.5,0.5);
+    -moz-transform: scale(0.5,0.5);
+    -o-transform: scale(0.5,0.5);
+    -ms-transform: scale(0.5,0.5);
+}
+#rotate .box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -o-transition: transform 2s;
+    -ms-transition: transform 2s;
+}
+#rotate .box:hover{
+    transform: rotate(30deg)   
+}
+#translate .box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: transform 5s,background-color 5s 2s;
+    -webkit-transition: transform 5s,background-color 5s 2s;
+    -moz-transition: transform 5s,background-color 5s 2s;
+    -o-transition: transform 5s,background-color 5s 2s;
+    -ms-transition: transform 5s,background-color 5s 2s;
+}
+#translate .box:hover{
+    transform: translateX(900px) rotate(360deg);
+    background-color: blueviolet;
+}

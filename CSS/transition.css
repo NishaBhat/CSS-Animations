@@ -1,0 +1,50 @@
+h3{
+    color : darkorchid;
+}
+.alignment{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+}
+#color .box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: background-color 4s 2s;
+    -webkit-transition: background-color 4s 2s;
+    -moz-transition: background-color 4s 2s;
+    -o-transition: background-color 4s 2s;
+    -ms-transition: background-color 4s 2s;
+}
+#color .box:hover{
+    background-color: blue;
+    
+}
+#circle .toCircle{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 0%;
+    transition: border-radius 4s,background-color 1s;
+    -webkit-transition: border-radius 4s,background-color 1s;
+    -moz-transition: border-radius 4s,background-color 1s;
+    -o-transition: border-radius 4s,background-color 1s;
+    -ms-transition: border-radius 4s,background-color 1s;
+}
+#circle .toCircle:hover{
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#delay .delay{
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+    animation: cssAnimation 0s 3s forwards;
+}
+@keyframes cssAnimation {
+    to   { opacity: 1; }
+  }
